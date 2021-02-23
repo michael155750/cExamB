@@ -1,0 +1,69 @@
+\hypertarget{file_handeling_8h}{}\doxysection{file\+Handeling.\+h File Reference}
+\label{file_handeling_8h}\index{fileHandeling.h@{fileHandeling.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{file_handeling_8h_a1e3f4cf7d6d82cded410903a6eb3d9dc}{read\+File}} (char $\ast$text, char $\ast$path)
+\begin{DoxyCompactList}\small\item\em gets apath to a file and read all of it \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{file_handeling_8h_aff66127390ae10a4e6ce136213f573ff}{write\+Two\+Texts}} (char $\ast$text1, char $\ast$text2, char $\ast$path)
+\begin{DoxyCompactList}\small\item\em gets two text and write them to the file \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{file_handeling_8h_a5a1f83c2d6407db0eb2e83e05a0b6fb7}{print\+Error\+Files}} (F\+I\+LE $\ast$file)
+\begin{DoxyCompactList}\small\item\em print error in opening files \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{file_handeling_8h_a5a1f83c2d6407db0eb2e83e05a0b6fb7}\label{file_handeling_8h_a5a1f83c2d6407db0eb2e83e05a0b6fb7}} 
+\index{fileHandeling.h@{fileHandeling.h}!printErrorFiles@{printErrorFiles}}
+\index{printErrorFiles@{printErrorFiles}!fileHandeling.h@{fileHandeling.h}}
+\doxysubsubsection{\texorpdfstring{printErrorFiles()}{printErrorFiles()}}
+{\footnotesize\ttfamily int print\+Error\+Files (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file }\end{DoxyParamCaption})}
+
+
+
+print error in opening files 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & a pointer to a F\+I\+LE structure \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+if the file not opened return 0 
+\end{DoxyReturn}
+\mbox{\Hypertarget{file_handeling_8h_a1e3f4cf7d6d82cded410903a6eb3d9dc}\label{file_handeling_8h_a1e3f4cf7d6d82cded410903a6eb3d9dc}} 
+\index{fileHandeling.h@{fileHandeling.h}!readFile@{readFile}}
+\index{readFile@{readFile}!fileHandeling.h@{fileHandeling.h}}
+\doxysubsubsection{\texorpdfstring{readFile()}{readFile()}}
+{\footnotesize\ttfamily void read\+File (\begin{DoxyParamCaption}\item[{char $\ast$}]{text,  }\item[{char $\ast$}]{path }\end{DoxyParamCaption})}
+
+
+
+gets apath to a file and read all of it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & the text in the file that readed \\
+\hline
+{\em path} & the path to the file \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{file_handeling_8h_aff66127390ae10a4e6ce136213f573ff}\label{file_handeling_8h_aff66127390ae10a4e6ce136213f573ff}} 
+\index{fileHandeling.h@{fileHandeling.h}!writeTwoTexts@{writeTwoTexts}}
+\index{writeTwoTexts@{writeTwoTexts}!fileHandeling.h@{fileHandeling.h}}
+\doxysubsubsection{\texorpdfstring{writeTwoTexts()}{writeTwoTexts()}}
+{\footnotesize\ttfamily void write\+Two\+Texts (\begin{DoxyParamCaption}\item[{char $\ast$}]{text1,  }\item[{char $\ast$}]{text2,  }\item[{char $\ast$}]{path }\end{DoxyParamCaption})}
+
+
+
+gets two text and write them to the file 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text1} & \\
+\hline
+{\em text2} & \\
+\hline
+{\em path} & path to the file \\
+\hline
+\end{DoxyParams}
